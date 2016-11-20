@@ -1,0 +1,294 @@
+/* ON OFF BUTTON CSS*/
+
+.onoffswitch {
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 6px; padding: 0; line-height: 6px;
+    border: 0px solid #FFFFFF; border-radius: 18px;
+    background-color: #43F770;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 18px; margin: -6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 30px;
+    border-radius: 18px;
+    box-shadow: 0 6px 12px 0px #757575;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #F54F68;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #F54F68;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+    background-color: #FFFFFF; 
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
+}
+/* ON OFF BUTTON CSS ENDS*/
+
+.myButton {
+    background-color:#599bb3;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+        height:25px;    
+        font-family:Arial;
+    font-size:12px;
+        text-decoration:none;
+    padding:4px 51px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+    background-color:#408c99;
+    text-decoration:none;
+}
+.myButton:active {
+    position:relative;
+    text-decoration:none;
+        background-color:#5aaae0;
+    top:1px;
+}
+
+.cardpanel{
+    width:710px;
+/*    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    background-color:#d4e3e5;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;*/
+}
+
+table.hovertable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+table.hovertable th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.hovertable tr {
+    background-color:#d4e3e5;
+}
+table.hovertable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+
+
+
+#footer {
+   position:relative;
+   bottom:0;
+   width:87%;
+   height:60px;   /* Height of the footer */
+   
+}
+
+.ticket_details{
+   width: 455px;
+   height: 80px;
+   background: #F5F5DC;
+   border-radius:3px;
+}
+
+object {
+    width: 100%;
+    min-height: 100%;
+}       
+
+
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+
+
+  #section-right {
+    width:65%;
+    float:right;
+    padding:1px;
+  }
+
+
+a.morelink {
+  text-decoration:none;
+  outline: none;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+#tictoe {
+  display: none;
+}
+
+
+#tictoe2 {
+  display: none;
+}
+
+#menu2 {
+  display: none;
+}
+
+#menu_room {
+  display: none;
+}
+
+#no2ks {
+  display: none;
+}
+
+#menu3 {
+  display: none;
+}
+#create_wa {
+  display: none;
+}
+
+#evnt_dropdwn{display:none;}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    background-color: #ffff99;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+ #map_curr_loc {
+        width: 500px;
+        height: 500px;
+      }
+
+#map_canvas {
+  height: 100%;
+  width: 100%;
+}
+
+pre.ui-coordinates {
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  padding:5px 10px;
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  font-size:11px;
+  line-height:18px;
+  border-radius:3px;
+  }
+
+.collapsible {
+  margin-bottom: 20px;
+  background: #EBEBEB;
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  width: 500px;
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #333333;
+  display: block;
+  overflow: hidden;
+}
+.collapsible button {
+  height: 135px;
+  float: right;
+  border: 1px solid #999999;
+  background: #999999;
+  color: #CECECE;
+  margin-left: 10px;
+}
+.collapsible button:hover {
+  background: #990000;
+  border: 1px solid #990000;
+}
+
+#right{
+right:50px; 
+position:absolute;
+}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter:'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}

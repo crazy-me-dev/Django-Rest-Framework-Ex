@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}User Registration{% endblock %}
+
+
+
+{% block head %}
+<div class="container">
+     <div class="panel-body" align="center">
+<h3>User Registration</h3>
+</div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+     <div class="panel-body" align="center">
+        <div class="cardpanel panel panel-primary" style='width: 300px;'>
+        <div class="panel-body">
+    <form method="post" action=".">{% csrf_token %}
+        <table border="0">
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="Register" />
+    </form>
+    </div>
+    </div>
+    <a href="../login/" class="btn btn-primary">Login</a>
+    </div>
+    </div>
+{% endblock %}

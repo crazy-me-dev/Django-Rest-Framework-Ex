@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Login Successful{% endblock %}
+{% block head %}
+	<div class="container" style="margin-top:5%;">
+    	<div class="panel-body" align="center">
+			<h3>Login Successful | Congrats {{user}} </h3>
+		</div>
+	</div>	
+{% endblock %}
+{% block content %}
+    <div class="container" style="margin-top:5%;">
+    	<div class="panel-body" align="center">
+    		<a href="/logout"> Click here to Logout</a>
+    	</div>
+    </div>	 
+{% endblock %}

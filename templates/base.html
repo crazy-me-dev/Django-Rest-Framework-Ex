@@ -1,0 +1,23 @@
+<!Doctype html>
+    {% load static %}
+    {% load staticfiles %}
+    {% load bootstrap3 %} 
+  <html lang="en">
+    <head>
+        <title>Django Login |
+        {% block title %}{% endblock %}</title>
+    {% load static from staticfiles %}
+    <!-- the main css file -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    <script src="{% static 'jquery/jquery-1.11.3.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'bootstrap/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/bootstrap.min.js' %}"></script>
+
+    </head>
+
+    <body>
+        <h5>{% block head %}{% endblock %}</h5>
+        {% block content %}{% endblock %}
+ 
+    </body>
+</html>
