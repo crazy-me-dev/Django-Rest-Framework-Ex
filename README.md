@@ -1,5 +1,4 @@
 # login-signup
-Login and SignUp System using Django and REST API
 
 Sinple User Registration and Login System created using Django and Django REST-Framework
 
